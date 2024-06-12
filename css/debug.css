@@ -1,0 +1,53 @@
+.debug.true .container {
+    border: 1px solid black;
+
+}
+
+.debug.true .sec1-3 {
+    border: 1px solid;
+}
+
+.debug.true .sec1-3.flex a,
+.debug.true .sec1-3.flex img {
+    border: 1px solid black;
+}
+
+.debug.true main .section {
+    border: 1px dashed #FF6900;
+}
+
+.debug.true .container-img {
+    border: 5px dashed green;
+}
+
+.debug.true .container-img .discount-section.flex {
+    border: 5px dashed white;
+}
+
+.debug.true footer {
+    border: 1px solid black;
+}
+
+.debug.true .sec1-2 {
+    border: 2px dashed pink;
+}
+
+.debug.true footer .container .section.flex .sec1-2:nth-of-type(2) {
+    border: 2px dashed white;
+}
+
+.debug.true footer ul {
+    border: 2px dashed white;
+}
+
+.debug.true footer ul li {
+    border: 2px dashed white;
+}
+
+.debug.true footer ul li:before {
+    content: "| <li>";
+}
+
+.debug.true footer ul::before {
+    content: "<ul>";
+}
